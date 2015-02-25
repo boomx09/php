@@ -6,7 +6,7 @@
 		private $name;
 		
 		function __construct( $file ) {
-			if($file)
+			if( $file )
 			$this->file = $file;
 			$name = explode('/',$this->file);
 			$this->name = end($name);
